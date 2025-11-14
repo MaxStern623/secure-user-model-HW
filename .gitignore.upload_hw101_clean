@@ -1,0 +1,15 @@
+# Virtualenvs and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# Common secrets and certs
+.env
+*.pem
+*.key
+*.crt
+credentials
+# Ignore large local artifacts
+*.sqlite3
+*.db
